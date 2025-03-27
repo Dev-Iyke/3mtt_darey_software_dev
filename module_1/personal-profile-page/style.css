@@ -47,7 +47,7 @@ nav ul li a:hover{
   background-color: rgba(0, 0, 0, 0.578);
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 72px);
+  height: calc(110vh - 72px);
   background-blend-mode: overlay;
   width: 100%;
   display: flex;
@@ -73,7 +73,19 @@ nav ul li a:hover{
   margin: 0 auto;
   border-radius: 100%;
 }
-
+.hobbies {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+.hobbies ul{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
 /******* BUILD SECTION ********/
 footer .build{ 
   color: rgb(219, 218, 218);
