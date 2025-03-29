@@ -1,0 +1,72 @@
+/* component styles import */
+
+/* header */
+
+/* navbar */
+@import url("./components/header/navbar/mobile.css");
+@import url("./components/header/navbar/desktop.css");
+/* hero */
+@import url("./components/header/hero/mobile.css");
+@import url("./components/header/hero/desktop.css");
+
+/* social */
+@import url("./components/social/mobile.css");
+@import url("./components/social/desktop.css");
+
+/* main */
+
+/* cta */
+@import url("./components/cta/desktop.css");
+@import url("./components/cta/mobile.css");
+
+/* features */
+
+@import url("./components/features/mobile.css");
+@import url("./components/features/desktop.css");
+
+/* footer */
+
+@import url("./components/footer/mobile.css");
+@import url("./components/footer/desktop.css");
+
+/* container styles */
+.navbar,
+.hero,
+main,
+footer {
+  padding-inline: 1rem;
+}
+
+.navbar,
+footer {
+  background: #ffffff;
+}
+.hero,
+main,
+.cta-container {
+  background: #f8f8f8;
+}
+
+main {
+  padding: 3rem 0;
+  background-color: #eee;
+}
+
+.navbar {
+  margin-block: 0.5rem;
+  /* padding-block: 0.75rem; */
+}
+
+.banner {
+  margin: 4rem 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar,
+  .hero,
+  main,
+  footer {
+    padding-inline: 6.25rem;
+  }
+}
+

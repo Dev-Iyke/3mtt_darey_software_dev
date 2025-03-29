@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-menu {
+  cursor: pointer;
+}
+
+/* navigation menu for mobile styles */
+.mobile-nav {
+  background: #e5e7eb;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-block: 2rem;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
+
+/* navigation menu for desktop */
+.nav {
+  display: none;
+}
+
+/* nav items */
+.navlink {
+  color: #4a4d50;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* nav button */
+.navbtn {
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    122deg,
+    #f9c8bf 3.72%,
+    #f87c61 19.56%,
+    #ab26f8 84.21%,
+    #d75efc 100.63%
+  );
+  padding: 1.5rem;
+  color: var(--Neutral-200, #e5e7eb);
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}

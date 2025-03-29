@@ -1,0 +1,100 @@
+.footer {
+  margin-block: 0.625rem;
+  padding: 5.3rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  gap: 4rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer .social {
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.footer .social-icons {
+  gap: 0.5rem;
+}
+
+.useful-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.company,
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.company > p,
+.products > p,
+.newsletter > p:first-of-type {
+  color: #1e1e1e;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.company > a,
+.products > a {
+  color: #1e1e1e;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 1.06rem;
+}
+
+.newsletter > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #1e1e1e;
+  padding: 0.67188rem 1.03625rem 0.76563rem 1.0625rem;
+}
+
+.newsletter > div > button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.21875rem; /* 150% */
+}
+
+.newsletter input {
+  padding: 0.2rem;
+  border: none;
+}
+.newsletter input::placeholder {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

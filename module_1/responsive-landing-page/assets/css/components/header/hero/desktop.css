@@ -1,0 +1,22 @@
+/* larger screen styles */
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+  }
+
+  .hero__content {
+    text-align: left;
+  }
+
+  .top {
+    align-items: flex-start;
+  }
+  .top > h1 {
+    font-size: 4rem;
+  }
+  .hero__content > a.navbtn {
+    padding: 0.625rem 1.125rem;
+    font-size: 0.99669rem;
+    align-self: flex-start;
+  }
+}

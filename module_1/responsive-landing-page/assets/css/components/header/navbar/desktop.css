@@ -1,0 +1,31 @@
+/* larger screen styles */
+@media screen and (min-width: 768px) {
+  .hamburger-menu,
+  .close {
+    display: none; /* Icons hidden for larger screens */
+  }
+
+  /* navigation menu for desktop */
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* navigation menu for mobile */
+  .mobile-nav {
+    display: none;
+  }
+
+  /* nav items */
+  .navlink,
+  .navbtn {
+    font-size: 1rem;
+  }
+
+  /* nav button */
+  .navbtn {
+    padding: 0.625rem 1.125rem;
+  }
+}

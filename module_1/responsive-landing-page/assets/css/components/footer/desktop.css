@@ -1,0 +1,10 @@
+/* footer styles */
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-inline: 6.25rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: stretch;
+    justify-content: space-between;
+  }
+}

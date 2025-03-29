@@ -1,0 +1,20 @@
+/* mobile screen styles */
+@media screen and (max-width: 640px) {
+  .cta {
+    text-align: center;
+    padding: 2rem 0;
+    flex-direction: column;
+    gap: 2rem;
+    margin-inline: 0;
+    border-radius: 0;
+    margin-bottom: 16px;
+  }
+  .cta-image-container {
+    justify-content: center;
+  }
+
+  .cta-image-container img {
+    margin-left: -0.98rem;
+    width: 22%;
+  }
+}

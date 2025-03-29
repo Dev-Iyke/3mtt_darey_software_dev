@@ -1,0 +1,28 @@
+.social {
+  order: 3;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5.43819rem;
+  background: #fff;
+  box-shadow: 0px 3.48px 13.052px 0px rgba(0, 0, 0, 0.05);
+}
+
+.social-para {
+  color: #5f6368;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.30088rem; /* 173.447% */
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons > img:last-of-type {
+  display: none;
+}
