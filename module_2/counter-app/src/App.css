@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.count-container{
+  min-width: 350px;
+  max-width: 90%;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 0 auto;
+  padding: 12px;
+}
+.count {
+  margin: 20px;
+  border: 1px solid navy;
+  text-align: center;
+  color: navy;
+  border-radius: 8px;
+  font-family: monospace;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+button{
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+  font-weight: 500;
+  font-size: large;
+  background-color: navy;
+  color: white;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+button:nth-child(1){
+  background-color: red;
+}
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
