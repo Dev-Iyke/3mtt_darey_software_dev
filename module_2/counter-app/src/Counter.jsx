@@ -4,10 +4,12 @@ function CounterApp() {
   const [count, setCount] = useState(0);
   const countLimit = 10
   useEffect(() => {
-    if(count === countLimit){
-      alert("You've reached the limit. well done!")
-      setCount(0)
-    }
+    setTimeout(() => {
+      if(count === countLimit){
+        alert(`You've reached the limit (${count}). well done!`)
+        setCount(0)
+      }
+    },200)
   }, [count])
   return (
     <div className="count-container">
