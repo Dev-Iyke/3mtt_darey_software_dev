@@ -1,0 +1,92 @@
+body{
+  background-color: #333;
+}
+header{
+  background-color: rgb(10, 10, 28);
+  color: gold;
+  text-align: center;
+  padding: 16px 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin-top: 20px;
+  background-color: #4b4545;
+  border-radius: 16px;
+  width: 90%;
+  margin: 32px auto;
+  padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 60%;
+    padding: 32px;
+  }
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ul li{
+  padding: 12px;
+  background-color: #eee;
+  border-radius: 8px;
+  font-weight: 600;
+  color: navy;
+}
+.completed{
+  color: green;
+}
+
+
+button{
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: large;
+  background-color: navy;
+  color: white;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.custom-loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 12px;
+  background:
+    conic-gradient(from 135deg at top,#766DF4 90deg, #0000 0) 0 calc(50% - 8px)/34px 17px,
+    radial-gradient(farthest-side at bottom left,#0000 calc(100% - 12px),#766DF4 calc(100% - 10px) 99%,#0000) top right/50%  50% content-box content-box,
+    radial-gradient(farthest-side at top        ,#0000 calc(100% - 12px),#766DF4 calc(100% - 10px) 99%,#0000) bottom   /100% 50% content-box content-box;
+  background-repeat: no-repeat;
+  animation:s1 0.5s infinite linear;
+}
+
+@keyframes s1{ 
+  100%{transform: rotate(1turn)}
+}
+
+.error{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  height: 80vh;
+
+
+}
